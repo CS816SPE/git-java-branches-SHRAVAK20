@@ -38,7 +38,12 @@ import java.util.Scanner;
 	                 res = a * b;
 	                 System.out.print("Result = " + res);
 	                 break;
-	 
+	 case '4' : System.out.print("Enter Two Number : ");
+	                 a = scan.next();
+	                 b = scan.nextFloat();
+	                 res = a * b;
+	                 System.out.print("Result = " + res);
+	                 break;
 	      
 	 
 	      case '5' : System.exit(0);
